@@ -1,9 +1,5 @@
 function fact ( n )
-    if n == 0 then
-        return 1
-    else
-        return n * fact(n-1)
-    end
+    return n > 1 and n * fact(n-1) or 1
 end
 
 print("Enter number: ")
